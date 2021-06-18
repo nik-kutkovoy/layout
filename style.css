@@ -1,0 +1,379 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+/*--------------------*/
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Anton", sans-serif;
+  color: black;
+  font-size: 16px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  background: url(./img/header-bg.jpg) no-repeat center top / cover;
+  padding-top: 57px;
+  padding-bottom: 322px;
+}
+
+.header a {
+  color: #ffffff;
+}
+
+.header a {
+  letter-spacing: 0;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+.menu li {
+  margin-right: 40px;
+}
+
+.logo {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.tel {
+  font-size: 17px;
+  text-decoration: none;
+  margin-left: auto;
+  letter-spacing: 0.1em;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.offer {
+  width: auto;
+  margin-top: 216px;
+}
+
+.offer_text {
+  font-size: 30px;
+  line-height: 44px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.main_offer_text {
+  font-size: 100px;
+  line-height: 147px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 19px;
+  margin-top: -12px;
+  margin-left: -3px;
+}
+
+.main_btn {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 238px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  padding: 18px 23px;
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.main_btn:hover {
+  box-shadow: 0 0 40px 40px #ffffff inset;
+  color: black;
+}
+
+.about_block {
+  margin-top: 113px;
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 73px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: left;
+}
+
+h3 {
+  font-size: 25px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.info_about {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.about_rebuilding,
+.about_drivers {
+  width: 564px;
+}
+
+.about_pic {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 0 115px 0;
+}
+
+.footer_text {
+  display: flex;
+  align-items: flex-start;
+  width: 545px;
+  padding-bottom: 50px;
+  margin-bottom: 80px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.first_footer_text {
+  margin-right: 55px;
+}
+
+.svg {
+  width: 70px;
+  height: 70px;
+}
+
+.menu_open {
+  background: none;
+  border: none;
+  width: auto;
+  height: auto;
+  display: none;
+}
+
+.header .show-menu {
+  display: block;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  left: 0;
+  top: 0;
+  width: 50%;
+  padding: 40px 20px 20px 40px;
+}
+
+.header .show-menu li {
+  margin-bottom: 40px;
+}
+
+.svg {
+  margin: 0%;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 960px;
+  }
+
+  .about_rebuilding,
+  .about_drivers {
+    width: 48%;
+  }
+
+  img:last-child {
+    width: 97%;
+  }
+}
+
+button:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 540px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu_open {
+    background: none;
+    border: none;
+    display: block;
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    width: 100%;
+  }
+
+  .footer_text {
+    width: auto;
+  }
+
+  .main_offer_text {
+    margin-top: 3px;
+    line-height: 1em;
+  }
+
+  .info_about {
+    flex-wrap: wrap;
+  }
+
+  .menu_open {
+    background: none;
+    border: none;
+    display: block;
+    padding-left: 40px;
+  }
+
+  .about_rebuilding,
+  .about_drivers {
+    width: 100%;
+  }
+
+  .about_rebuilding {
+    margin-bottom: 40px;
+  }
+
+  .about_pic {
+    flex-wrap: wrap;
+  }
+
+  img {
+    width: 100%;
+    margin: 4px;
+  }
+
+  .about_pic li {
+    width: 100%;
+  }
+
+  .logo {
+    width: auto;
+    height: auto;
+  }
+
+  .menu {
+    display: none;
+  }
+}
